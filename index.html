@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+     <h1>Фильтер</h1>
+    <ul class="list">
+      <li class="list_item activ_btn" data-id="all">Все</li>
+      <li class="list_item" data-id="winter">Зима</li>
+      <li class="list_item" data-id="spring">Весна</li>
+      <li class="list_item" data-id="summer">Лето</li>
+      <li class="list_item" data-id="autumn">Осень</li>
+    </ul>
+    <div class="card_wrap">
+      <div class="card_row flex">
+        <div class="card summer">Лето</div>
+        <div class="card autumn">Осень</div>
+        <div class="card winter">Зима</div>
+        <div class="card spring">Весна</div>
+      </div>
+
+      <div class="card_row flex">
+        <div class="card winter">Зима</div>
+        <div class="card spring">Весна</div>
+        <div class="card summer">Лето</div>
+        <div class="card autumn">Осень</div>
+      </div>
+    </div>
+   </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

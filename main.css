@@ -1,0 +1,36 @@
+body {
+  /* background-color: #FFD78A; */
+  font-family: sans-serif;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+  ul,li {
+    display: block;
+  }
+.container {
+  margin: 0 auto;
+  padding-top: 50px; 
+}
+.list {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.card {
+  width: 200px;
+  text-align: center;
+  border:1px solid red
+}
+.card_row {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.list_item {
+  margin-right: 20px;
+  border:1px solid green;
+  padding: 10px;
+}
+.activ_btn {
+  background: yellow;
+}
